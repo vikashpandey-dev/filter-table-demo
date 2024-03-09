@@ -2,7 +2,7 @@ import React from "react";
 
 const DataTable = ({ data, onAction, loading = false }) => {
   const tableHeaders = Object.keys(data[0]);
-
+  console.log(tableHeaders, "tableHeaders");
   return (
     <div className="table-responsive">
       <table className="table table-bordered table-hover">
