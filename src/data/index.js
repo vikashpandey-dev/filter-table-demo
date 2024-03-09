@@ -5,6 +5,7 @@ export const tempUserData = [
     city: "Mumbai",
     active: true,
     type: "Old user",
+    company: "Infosys",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const tempUserData = [
     city: "New York",
     active: false,
     type: "New user",
+    company: "TCS",
   },
   {
     id: 3,

@@ -11,7 +11,7 @@ const DataTable = ({ data, onAction, loading = false }) => {
             {tableHeaders?.map(
               (header, index) =>
                 header !== "Actions" && (
-                  <th key={index}>{header.toLocaleUpperCase()}</th>
+                  <th key={index}>{header?.toLocaleUpperCase()}</th>
                 )
             )}
           </tr>
@@ -22,7 +22,7 @@ const DataTable = ({ data, onAction, loading = false }) => {
               {tableHeaders?.map(
                 (header, colIndex) =>
                   header !== "Actions" && (
-                    <td key={colIndex}>{row[header].toString()}</td>
+                    <td key={colIndex}>{row[header]?.toString()}</td>
                   )
               )}
             </tr>
